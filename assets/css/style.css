@@ -131,6 +131,36 @@ h1, h2, h3, h4, h5, h6 {
     padding: 6px 18px;
   }
 }
+/*--------------------------------------------------------------
+# Read More... Button
+--------------------------------------------------------------*/
+.read-more-btn {
+  
+  background: #3888C2;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.read-more-btn:hover {
+  background: #111111;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .read-more-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
