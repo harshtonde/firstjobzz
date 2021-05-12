@@ -1,4 +1,4 @@
-const testitmonialData = [
+var testitmonialData = [
     {
         college : "AITR",
         fullname : "Jaspreet Singh",
@@ -43,3 +43,27 @@ const testitmonialData = [
     },
        
 ]
+
+testitmonialData.map(data => {
+    document.write("<div class=\"icon-box\" data-aos=\"fade-up\" data-aos-delay=\"100\">");
+    document.write("<div class=\"row\">");
+    document.write("<div class=\"col-lg-3\">");
+    document.write("<center><img alt=\"\"src=\"assets/img/Placed students/noprofileimage.png\" class=\"rounded-circle\" style=\"height: 100px; width: 100px;\"/>");
+    document.write(`<h3 style=\"color: white;\"><br>${data.fullname}</h3>`);
+    document.write(`<h3 style="color: #3888C2;">${data.companyname}</h3></center>`);
+    document.write("</div>");
+    document.write("<div class=\"col-lg-8\">");
+    document.write(`<center><h3 style=\"color: #3888C2;\">${data.college}</h3></center>`);
+    document.write(`<p style=\"color: white; text-align: justify;\">${data.description}</p>`);
+    document.write("</div>");
+    document.write("</div>");
+    document.write("</div>");
+})
+
+
+        
+          
+           
+          
+           
+            
