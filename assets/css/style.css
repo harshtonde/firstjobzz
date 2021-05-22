@@ -1393,9 +1393,3 @@ section {
 .wrapper .item .company {
   font-size: 10px;
 }
-
-.wrapper .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
