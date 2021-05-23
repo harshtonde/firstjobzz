@@ -1349,7 +1349,7 @@ section {
 /* ============================= */
 
 .wrapper{
-  height: 220px;
+  height: 240px;
   border: 1px solid  #ddd;
   display: flex;
   overflow-x: auto;
@@ -1392,4 +1392,24 @@ section {
 
 .wrapper .item .company {
   font-size: 10px;
+}
+
+
+/*================================== */
+/* Headline */
+/* ================================= */
+
+.headline{
+
+}
+
+.headline .container{
+  
+}
+.headline .text{
+color: #3888C2;
+font-weight: 600;
+padding: 0px;
+height: 20px;
+
 }
