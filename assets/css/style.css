@@ -1366,17 +1366,15 @@ section {
   border-width: 0px;
   min-width: 110px;
   height: fit-content;
-  background-color:transparent;
+  background-color: transparent;
   margin-right: 2px;
   margin-left: 2px;
 }
 
 .wrapper .container {
   border-width: 0px;
-  width: 300px;
-  overflow-x: scroll;
+  width: 120px;
   white-space: nowrap;
-  background-color: #fff;
 }
 
 .wrapper .image {
@@ -1386,8 +1384,9 @@ section {
 }
 
 .wrapper .item .name{
-  font-size: 12px;
+  font-size: 11px;
   color: white;
+
 }
 
 .wrapper .item .company {
@@ -1420,3 +1419,24 @@ height: 20px;
 
 
 
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  /* position: relative; */
+  width: 200%;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-right: 20px;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-4000%);
+  }
+}

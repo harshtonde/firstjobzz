@@ -296,10 +296,10 @@ var photoScroll = [
 ]
 
 photoScroll.map(data => {
-    document.write("<div class=\"item\">");
-    document.write(`<img class="wrapper image" src=\" ${data.imagepath} \">`);
-    document.write(`<center><a class="wrapper item name">${data.fullname}</a>`);
-    document.write(`<a class="wrapper item company">${data.collegename} ${data.company}</a></center></div>`);
+    document.write("<span class=\"item\">");
+    document.write(`<div class= "container"><img class="wrapper image" src=\"${data.imagepath}\">`);
+    document.write(`<a class="wrapper item name">${data.fullname}</a>`);
+    document.write(`<a class="wrapper item company">${data.collegename} ${data.company}</a></div></span>`);
   })
   
   
