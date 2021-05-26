@@ -170,6 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
+  margin-bottom: 0px;
 }
 
 .navbar ul {
@@ -1402,18 +1403,13 @@ section {
 /* Headline */
 /* ================================= */
 
-.headline{
 
-}
-
-.headline .container{
-  
-}
 .headline .text{
 color: #3888C2;
 font-weight: 600;
 padding: 0px;
 height: 20px;
+font-size: 16px;
 
 }
 
