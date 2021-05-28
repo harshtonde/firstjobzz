@@ -1412,7 +1412,6 @@ font-size: 16px;
 .marquee {
   overflow: hidden;
   white-space: nowrap;
-  /* position: relative; */
   width: 200%;
 }
 
