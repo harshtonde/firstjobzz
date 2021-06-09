@@ -3,7 +3,7 @@ var testitmonialData = [
 		college: "AITR",
 		fullname: "Jagpreet Singh",
 		companyname: "L&T Infotech (2017)",
-		description: "I am palced in LTI. I am extremely thankful to the entire Firstjobzz team for all their support throughout the campus recruitment process. FJ modules and test series helped me a lot with my preparation, all the mentors are extremely supportive and friendly which makes it easy for students to settle quickly. Thanks FJ!",
+		description: "I am placed in LTI. I am extremely thankful to the entire Firstjobzz team for all their support throughout the campus recruitment process. FJ modules and test series helped me a lot with my preparation, all the mentors are extremely supportive and friendly which makes it easy for students to settle quickly. Thanks FJ!",
 		profileimage: "assets/img/testimonials/page1/noprofileimage.jpg"
 	},
 	{
